@@ -6,7 +6,7 @@
     "keywords": ["secp256k1", "secp256r1", "nistp192", "nistp224", "nistp256", "nistp384", "nistp521", "ECDSA", "diffie", "hellman", "ECDH", "elliptic", "curve", "phpecc"],
     "license": "MIT",
     "require": {
-        "php": "^7.0",
+        "php": "^8.0",
         "ext-gmp": "*",
         "fgrosse/phpasn1": "^2.0"
     },
