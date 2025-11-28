@@ -1,0 +1,29 @@
+{
+    "name": "tqjt/pingan",
+    "description": "腾青集团对接平安银行",
+    "type": "library",
+    "homepage": "https://www.tenqent.com",
+    "keywords": ["secp256k1", "secp256r1", "nistp192", "nistp224", "nistp256", "nistp384", "nistp521", "ECDSA", "diffie", "hellman", "ECDH", "elliptic", "curve", "phpecc"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0",
+        "ext-gmp": "*",
+        "fgrosse/phpasn1": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "^2.0",
+        "symfony/yaml": "^2.6|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tqjt\\Pingan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tqjt\\Pingan\\Tests\\": "tests/unit",
+            "Tqjt\\Pingan\\WycheProof\\": "tests/wycheproof"
+        }
+    }
+}
