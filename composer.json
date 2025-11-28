@@ -1,0 +1,15 @@
+{
+    "name": "tqjt/pingan",
+    "autoload": {
+        "psr-4": {
+            "Tqjt\\Pingan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "陈鹏",
+            "email": "chenpeng@tenqent.com"
+        }
+    ],
+    "require": {}
+}
